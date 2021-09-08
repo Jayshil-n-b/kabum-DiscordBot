@@ -28,15 +28,6 @@ client.once("ready", () => {
   );
 });
 
-client.on("interactionCreate", (intr) => {
-  if (!intr.isCommand()) {
-    return;
-  }
-  if (intr.commandName === "ready") {
-    intr.reply({ content: "at your service sir!!", ephemeral: true });
-  }
-});
-
 client.on("messageCreate", (msg) => {
   if (msg.author.bot) {
     return;
