@@ -4,7 +4,7 @@
 
 ## Screenshot of bot response
 
-<img src="./resources/demo.png">
+<img src="https://github.com/Jayshil-n-b/kabum-DiscordBot/blob/main/assets/demo.png?raw=true">
 
 1. It sends users **Hello message** when user types `-hi` in the discord server.
 
